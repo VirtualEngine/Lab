@@ -670,16 +670,16 @@
 		"Hotfixes": []
 	},
 	{
-		"Id": "WIN11_x64_Enterprise_22H2_EN_Eval",
+		"Id": "WIN11_x64_Enterprise_23H2_EN_Eval",
 		"Alias": "WIN11_x64_Enterprise_EN_Eval",
-		"Filename": "WIN11_x64_ENT_22H2_EN_Eval.iso",
-		"Description": "Windows 11 64-bit Enterprise 22H2 English Evaluation",
+		"Filename": "WIN11_x64_ENT_23H2_EN_Eval.iso",
+		"Description": "Windows 11 64-bit Enterprise 23H2 English Evaluation",
 		"Architecture": "x64",
 		"ImageName": "1",
 		"MediaType": "ISO",
 		"OperatingSystem": "Windows",
-		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
-		"Checksum": "06D32714E332D506E3C565BC08204CAB",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/22631.2428.231001-0608.23H2_NI_RELEASE_SVC_REFRESH_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
+		"Checksum": "981426E2651BB45D65D528A63B361977",
 		"CustomData": {
 			"WindowsOptionalFeature": ["NetFx3"],
 			"CustomBootstrap": [

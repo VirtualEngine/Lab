@@ -1,0 +1,23 @@
+{
+    "Id": "WIN11_x64_Enterprise_22H2_EN_Eval",
+    "Filename": "WIN11_x64_ENT_22H2_EN_Eval.iso",
+    "Description": "Windows 11 64-bit Enterprise 22H2 English Evaluation",
+    "Architecture": "x64",
+    "ImageName": "1",
+    "MediaType": "ISO",
+    "OperatingSystem": "Windows",
+    "Uri": "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
+    "Checksum": "06D32714E332D506E3C565BC08204CAB",
+    "CustomData": {
+        "WindowsOptionalFeature": ["NetFx3"],
+        "CustomBootstrap": [
+            "## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
+            "NET USER Administrator /active:yes;",
+            "Set-ItemProperty -Path HKLM:\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Microsoft.PowerShell -Name ExecutionPolicy -Value RemoteSigned -Force; #306",
+            "## Kick-start PowerShell remoting on clients to permit applying DSC configurations",
+            "Enable-PSRemoting -SkipNetworkProfileCheck -Force;"
+        ],
+        "MinimumDismVersion": "10.0.0.0"
+    },
+    "Hotfixes": []
+}

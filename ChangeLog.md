@@ -2,6 +2,11 @@
 
 ## Versions ##
 
+### 0.25.0 ###
+
+* Adds Windows 11 Enterprise 23H2 (2310) evaluation media
+* Updates default Windows 11 evaluation media to Windows 11 23H2 (2310)
+
 ### 0.24.0 ###
 
 * Adds support for Azure DevOps package module feeds (thanks @bm-fez)
