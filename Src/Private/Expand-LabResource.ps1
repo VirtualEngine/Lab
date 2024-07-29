@@ -55,8 +55,14 @@ function Expand-LabResource {
             $resourceSourcePath = Join-Path $resourcePath -ChildPath $resource.Id;
 
             if ($resource.Filename) {
-
-                $resourceSourcePath = Join-Path $resourcePath -ChildPath $resource.Filename;
+                
+                if ($resource.DownloadToFolder -and $resource.Expand) {
+                    $resourceSourcePath = Join-Path $resourcePath -ChildPath (Join-Path -Path $resource.Id -ChildPath $resource.Filename)
+                } elseif ($resource.DownloadToFolder) {
+                    $resourceSourcePath = Join-Path $resourcePath -ChildPath $resource.Id
+                } else {
+                    $resourceSourcePath = Join-Path $resourcePath -ChildPath $resource.Filename;
+                }
                 if ($resource.IsLocal) {
 
                     $resourceSourcePath = Resolve-Path -Path $resource.Filename;
@@ -113,8 +119,9 @@ function Expand-LabResource {
                 switch ([System.IO.Path]::GetExtension($resourceSourcePath)) {
 
                     '.iso' {
-
+                        Write-Verbose "Expand [$($resourceItem.FullName)] to [$resourceDestinationPath]"
                         Expand-LabIso -Path $resourceItem.FullName -DestinationPath $resourceDestinationPath;
+                        break;
                     }
 
                     '.zip' {
@@ -126,6 +133,13 @@ function Expand-LabResource {
                             Verbose = $false;
                         }
                         [ref] $null = Expand-ZipArchive @expandZipArchiveParams;
+                        break;
+                    }
+
+                    { $resource.DownloadToFolder } {
+                        Write-Verbose "Copy [$resourceSourcePath] from [$($resourceItem.FullName)] to [$resourceDestinationPath]"
+                        Copy-Item -Path $resourceItem.FullName $resourceDestinationPath -Recurse
+                        break;
                     }
 
                     Default {

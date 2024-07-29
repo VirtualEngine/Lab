@@ -202,7 +202,7 @@ ConvertFrom-StringData -StringData @'
     ExplicitOutputPathWarning         = Parameter 'OutputPath' was explicitly passed and is also defined in the 'ConfigurationParameters' hashtable. Using OutputPath '{0}'.
     ExplicitConfigurationDataWarning  = Parameter 'ConfigurationData' was explicitly passed and is also defined in the 'ConfigurationParameters' hashtable. Using ConfigurationData '{0}'.
     SkippingMetaConfigurationWarning  = Skipping meta configuration file '{0}'.
-    CannotResolveMofModuleWarning     = Cannot resolve MOF module name and/or version of the instance defined at line {0}.
+    CannotResolveMofModuleWarning     = Cannot resolve MOF module name and/or version of the instance defined in file '{0}' at line {1} as '{2}'.
     ModuleUsingMinimumVersionWarning  = Module '{0}' definition is configured with the 'MinimumVersion' property. It is recommended to use the 'RequiredVersion' property instead.
     ModuleMissingRequiredVerWarning   = Module '{0}' definition is missing 'RequiredVersion' property. It recommended to use the 'RequiredVersion' property.
     MofModuleVersionMismatchWarning   = Module '{0}' version mismatch. The version '{1}' defined in the .mof file does not match the version '{2}' defined in the Lability configuration file.

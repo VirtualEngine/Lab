@@ -149,7 +149,13 @@ function Invoke-LabResourceDownload {
                     if (($null -eq $resource.IsLocal) -or ($resource.IsLocal -eq $false)) {
 
                         $fileName = $resource.Id;
-                        if ($resource.Filename) { $fileName = $resource.Filename; }
+                        if ($resource.Filename) { 
+                            if ($resource.DownloadToFolder) {
+                                $fileName = $fileName + "\" + $resource.Filename
+                            } else {
+                                $fileName = $resource.Filename
+                            }
+                        }
                         $resourceDestinationPath = Join-Path -Path $DestinationPath -ChildPath $fileName;
                         $invokeResourceDownloadParams = @{
                             DestinationPath = $resourceDestinationPath;

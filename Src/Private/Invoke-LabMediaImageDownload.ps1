@@ -24,7 +24,7 @@ function Invoke-LabMediaImageDownload {
         $hostDefaults = Get-ConfigurationData -Configuration Host;
 
         $invokeResourceDownloadParams = @{
-            DestinationPath = Join-Path -Path $hostDefaults.IsoPath -ChildPath $media.Filename;
+            DestinationPath = if ($media.DownloadToFolder) { Join-Path -Path $hostDefaults.IsoPath -ChildPath (Join-Path -Path $media.Id -ChildPath $media.Filename); } else { Join-Path -Path $hostDefaults.IsoPath -ChildPath $media.Filename; }
             Uri = $media.Uri;
             Checksum = $media.Checksum;
         }

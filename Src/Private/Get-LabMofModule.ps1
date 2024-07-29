@@ -44,9 +44,10 @@ function Get-LabMofModule {
             foreach ($line in [System.IO.File]::ReadLines($Path)) {
 
                 $currentLineNumber++;
-                if ($line -match '^instance of (?!MSFT_Credential|MSFT_xWebBindingInformation)') {
+                if ($line -match '^instance of (?!MSFT_Credential|MSFT_xWebBindingInformation|ServerPermission)') {
                     ## Ignore MSFT_Credential and MSFT_xWebBindingInformation types. There may be
-                    ## other types that need suppressing, but they'll be resource specific
+                    ## other types that need suppressing, but they'll be resource specific, like
+                    ## ServerPermission is part of SqlServerDsc
 
                     if ($null -eq $currentModule) {
 
@@ -59,7 +60,7 @@ function Get-LabMofModule {
                     }
                     else {
 
-                        Write-Warning -Message ($localized.CannotResolveMofModuleWarning -f $instanceLineNumber);
+                        Write-Warning -Message ($localized.CannotResolveMofModuleWarning -f $path, $instanceLineNumber, $line);
                     }
 
                     $instanceLineNumber = $currentLineNumber;

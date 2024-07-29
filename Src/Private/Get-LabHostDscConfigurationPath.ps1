@@ -13,4 +13,3 @@ function Get-LabHostDscConfigurationPath {
 
     } #end process
 } #end function Get-LabHostDscConfigurationPath
-

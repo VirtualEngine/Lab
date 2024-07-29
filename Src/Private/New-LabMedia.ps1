@@ -26,6 +26,12 @@ function New-LabMedia {
         [System.String] $Architecture = $(throw ($localized.MissingParameterError -f 'Architecture')),
 
         [Parameter(ValueFromPipelineByPropertyName)]
+        [System.Boolean] $DownloadToFolder,
+
+        [Parameter(ValueFromPipelineByPropertyName)]
+        [System.Boolean] $CopyToFolder,
+    
+        [Parameter(ValueFromPipelineByPropertyName)]
         [System.String] $ImageName = '',
 
         [Parameter(ValueFromPipelineByPropertyName)]
@@ -80,6 +86,8 @@ function New-LabMedia {
             Filename = $Filename;
             Description = $Description;
             Architecture = $Architecture;
+            DownloadToFolder = $DownloadToFolder;
+            CopyToFolder = $CopyToFolder;
             ImageName = $ImageName;
             MediaType = $MediaType;
             OperatingSystem = $OperatingSystem;
