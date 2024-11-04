@@ -1,5 +1,77 @@
 [
 	{
+		"Id": "2025_x64_Standard_EN_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Standard 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "2",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2025_x64_Standard_EN_Core_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Standard 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2025_x64_Datacenter_EN_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Datacenter 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "4",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2025_x64_Datacenter_EN_Core_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Datacenter 64-bit English Evaluation in Core mode",
+		"Architecture": "x64",
+		"ImageName": "3",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
 		"Id": "2022_x64_Standard_EN_Eval",
 		"Filename": "2022_x64_EN_Eval.iso",
 		"Description": "Windows Server 2022 Standard 64-bit English Evaluation with Desktop Experience",
