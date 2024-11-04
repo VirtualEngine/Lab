@@ -1,241 +1,337 @@
 [
 	{
-		"Id":  "2022_x64_Standard_EN_Eval",
-		"Filename":  "2022_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2022 Standard 64-bit English Evaluation with Desktop Experience",
-		"Architecture":  "x64",
-		"ImageName":  "2",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "E7908933449613EDC97E1B11180429D1",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2025_x64_Standard_EN_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Standard 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "2",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2022_x64_Standard_EN_Core_Eval",
-		"Filename":  "2022_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2022 Standard 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "1",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "E7908933449613EDC97E1B11180429D1",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2025_x64_Standard_EN_Core_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Standard 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2022_x64_Datacenter_EN_Eval",
-		"Filename":  "2022_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2022 Datacenter 64-bit English Evaluation with Desktop Experience",
-		"Architecture":  "x64",
-		"ImageName":  "4",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "E7908933449613EDC97E1B11180429D1",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2025_x64_Datacenter_EN_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Datacenter 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "4",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2022_x64_Datacenter_EN_Core_Eval",
-		"Filename":  "2022_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2022 Datacenter 64-bit English Evaluation in Core mode",
-		"Architecture":  "x64",
-		"ImageName":  "3",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "E7908933449613EDC97E1B11180429D1",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2025_x64_Datacenter_EN_Core_Eval",
+		"Filename": "2025_x64_EN_Eval.iso",
+		"Description": "Windows Server 2025 Datacenter 64-bit English Evaluation in Core mode",
+		"Architecture": "x64",
+		"ImageName": "3",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1.240331-1435.ge_release_SERVER_EVAL_x64FRE_en-us.iso?culture=en-us&country=US",
+		"Checksum": "8286AE65AB4D6FF2430B914D7901427B",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2019_x64_Standard_EN_Eval",
-		"Filename":  "2019_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2019 Standard 64-bit English Evaluation with Desktop Experience",
-		"Architecture":  "x64",
-		"ImageName":  "2",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "48CD91270581D1BE10C3FF3AD6C41CCE",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2022_x64_Standard_EN_Eval",
+		"Filename": "2022_x64_EN_Eval.iso",
+		"Description": "Windows Server 2022 Standard 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "2",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "E7908933449613EDC97E1B11180429D1",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2019_x64_Standard_EN_Core_Eval",
-		"Filename":  "2019_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2019 Standard 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "1",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "48CD91270581D1BE10C3FF3AD6C41CCE",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2022_x64_Standard_EN_Core_Eval",
+		"Filename": "2022_x64_EN_Eval.iso",
+		"Description": "Windows Server 2022 Standard 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "E7908933449613EDC97E1B11180429D1",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2019_x64_Datacenter_EN_Eval",
-		"Filename":  "2019_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2019 Datacenter 64-bit English Evaluation with Desktop Experience",
-		"Architecture":  "x64",
-		"ImageName":  "4",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "48CD91270581D1BE10C3FF3AD6C41CCE",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2022_x64_Datacenter_EN_Eval",
+		"Filename": "2022_x64_EN_Eval.iso",
+		"Description": "Windows Server 2022 Datacenter 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "4",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "E7908933449613EDC97E1B11180429D1",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2019_x64_Datacenter_EN_Core_Eval",
-		"Filename":  "2019_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2019 Datacenter 64-bit English Evaluation in Core mode",
-		"Architecture":  "x64",
-		"ImageName":  "3",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
-		"Checksum":  "48CD91270581D1BE10C3FF3AD6C41CCE",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2022_x64_Datacenter_EN_Core_Eval",
+		"Filename": "2022_x64_EN_Eval.iso",
+		"Description": "Windows Server 2022 Datacenter 64-bit English Evaluation in Core mode",
+		"Architecture": "x64",
+		"ImageName": "3",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "E7908933449613EDC97E1B11180429D1",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Standard_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Standard 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "2",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2019_x64_Standard_EN_Eval",
+		"Filename": "2019_x64_EN_Eval.iso",
+		"Description": "Windows Server 2019 Standard 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "2",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "48CD91270581D1BE10C3FF3AD6C41CCE",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Standard_Core_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Standard Core 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "1",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2019_x64_Standard_EN_Core_Eval",
+		"Filename": "2019_x64_EN_Eval.iso",
+		"Description": "Windows Server 2019 Standard 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "48CD91270581D1BE10C3FF3AD6C41CCE",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Datacenter_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Datacenter 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "4",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2019_x64_Datacenter_EN_Eval",
+		"Filename": "2019_x64_EN_Eval.iso",
+		"Description": "Windows Server 2019 Datacenter 64-bit English Evaluation with Desktop Experience",
+		"Architecture": "x64",
+		"ImageName": "4",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "48CD91270581D1BE10C3FF3AD6C41CCE",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Datacenter_Core_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Datacenter Core 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "3",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"WindowsOptionalFeature":  ["NetFx3"],
+		"Id": "2019_x64_Datacenter_EN_Core_Eval",
+		"Filename": "2019_x64_EN_Eval.iso",
+		"Description": "Windows Server 2019 Datacenter 64-bit English Evaluation in Core mode",
+		"Architecture": "x64",
+		"ImageName": "3",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-download.microsoft.com/download/sg/17763.253.190108-0006.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso",
+		"Checksum": "48CD91270581D1BE10C3FF3AD6C41CCE",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Standard_Nano_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Standard Nano 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "Windows Server 2016 SERVERSTANDARDNANO",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"SetupComplete":  "CoreCLR",
-			"PackagePath":  "\\NanoServer\\Packages",
+		"Id": "2016_x64_Standard_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Standard 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "2",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2016_x64_Standard_Core_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Standard Core 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2016_x64_Datacenter_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Datacenter 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "4",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2016_x64_Datacenter_Core_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Datacenter Core 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "3",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "2016_x64_Standard_Nano_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Standard Nano 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "Windows Server 2016 SERVERSTANDARDNANO",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"SetupComplete": "CoreCLR",
+			"PackagePath": "\\NanoServer\\Packages",
 			"PackageLocale": "en-US",
-			"WimPath":  "\\NanoServer\\NanoServer.wim",
-			"Package":  [
+			"WimPath": "\\NanoServer\\NanoServer.wim",
+			"Package": [
 				"Microsoft-NanoServer-Guest-Package",
 				"Microsoft-NanoServer-DSC-Package"
 			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
-		"Id":  "2016_x64_Datacenter_Nano_EN_Eval",
-		"Filename":  "2016_x64_EN_Eval.iso",
-		"Description":  "Windows Server 2016 Datacenter Nano 64-bit English Evaluation",
-		"Architecture":  "x64",
-		"ImageName":  "Windows Server 2016 SERVERDATACENTERNANO",
-		"MediaType":  "ISO",
-		"OperatingSystem":  "Windows",
-		"Uri":  "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
-		"Checksum":  "70721288BBCDFE3239D8F8C0FAE55F1F",
-		"CustomData":  {
-			"SetupComplete":  "CoreCLR",
-			"PackagePath":  "\\NanoServer\\Packages",
+		"Id": "2016_x64_Datacenter_Nano_EN_Eval",
+		"Filename": "2016_x64_EN_Eval.iso",
+		"Description": "Windows Server 2016 Datacenter Nano 64-bit English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "Windows Server 2016 SERVERDATACENTERNANO",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "http://download.microsoft.com/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO",
+		"Checksum": "70721288BBCDFE3239D8F8C0FAE55F1F",
+		"CustomData": {
+			"SetupComplete": "CoreCLR",
+			"PackagePath": "\\NanoServer\\Packages",
 			"PackageLocale": "en-US",
-			"WimPath":  "\\NanoServer\\NanoServer.wim",
-			"Package":  [
+			"WimPath": "\\NanoServer\\NanoServer.wim",
+			"Package": [
 				"Microsoft-NanoServer-Guest-Package",
 				"Microsoft-NanoServer-DSC-Package"
 			],
 			"MinimumDismVersion": "10.0.0.0"
 		},
-		"Hotfixes":  []
+		"Hotfixes": []
 	},
 	{
 		"Id": "2012R2_x64_Standard_EN_Eval",
@@ -248,7 +344,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -292,7 +390,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -312,7 +412,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -332,7 +434,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -376,7 +480,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -396,7 +502,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -416,7 +524,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -460,7 +570,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -480,7 +592,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -500,7 +614,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -544,7 +660,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -564,7 +682,9 @@
 		"Uri": "http://download.microsoft.com/download/6/2/A/62A76ABB-9990-4EFC-A4FE-C7D698DAEB96/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
 		"Checksum": "5B5E08C490AD16B59B1D9FAB0DEF883A",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"]
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			]
 		},
 		"Hotfixes": [
 			{
@@ -585,7 +705,9 @@
 		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66750/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
 		"Checksum": "E469D0ADD9F698A1B48ADCE2520403EF",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"],
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"CustomBootstrap": [
 				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
 				"NET USER Administrator /active:yes;",
@@ -609,7 +731,9 @@
 		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66750/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x86FRE_en-us.iso",
 		"Checksum": "A2ACBC46AC3DE17122CC3AAB12B11C03",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"],
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"CustomBootstrap": [
 				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
 				"NET USER Administrator /active:yes;",
@@ -633,7 +757,9 @@
 		"Uri": "https://software-download.microsoft.com/download/db/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENT_LTSC_EVAL_x64FRE_en-us.iso",
 		"Checksum": "7E34E331696CA40FEDF657162995C3AD",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"],
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"CustomBootstrap": [
 				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
 				"NET USER Administrator /active:yes;",
@@ -657,7 +783,9 @@
 		"Uri": "https://software-download.microsoft.com/download/db/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENT_LTSC_EVAL_x86FRE_en-us.iso",
 		"Checksum": "080905D97B178F7FE611BA55531A6CC4",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"],
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"CustomBootstrap": [
 				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
 				"NET USER Administrator /active:yes;",
@@ -681,7 +809,61 @@
 		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/22631.2428.231001-0608.23H2_NI_RELEASE_SVC_REFRESH_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
 		"Checksum": "981426E2651BB45D65D528A63B361977",
 		"CustomData": {
-			"WindowsOptionalFeature": ["NetFx3"],
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"CustomBootstrap": [
+				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
+				"NET USER Administrator /active:yes;",
+				"Set-ItemProperty -Path HKLM:\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Microsoft.PowerShell -Name ExecutionPolicy -Value RemoteSigned -Force; #306",
+				"## Kick-start PowerShell remoting on clients to permit applying DSC configurations",
+				"Enable-PSRemoting -SkipNetworkProfileCheck -Force;"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "WIN11_x64_Enterprise_24H2_EN_Eval",
+		"Alias": "WIN11_x64_Enterprise_24H2_EN_Eval",
+		"Filename": "WIN11_x64_ENT_24H2_EN_Eval.iso",
+		"Description": "Windows 11 64-bit Enterprise 24H2 English Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/22631.2428.231001-0608.23H2_NI_RELEASE_SVC_REFRESH_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso",
+		"Checksum": "06D32714E332D506E3C565BC08204CAB",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
+			"CustomBootstrap": [
+				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
+				"NET USER Administrator /active:yes;",
+				"Set-ItemProperty -Path HKLM:\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Microsoft.PowerShell -Name ExecutionPolicy -Value RemoteSigned -Force; #306",
+				"## Kick-start PowerShell remoting on clients to permit applying DSC configurations",
+				"Enable-PSRemoting -SkipNetworkProfileCheck -Force;"
+			],
+			"MinimumDismVersion": "10.0.0.0"
+		},
+		"Hotfixes": []
+	},
+	{
+		"Id": "WIN11_x64_Enterprise_24H2_ENGB_Eval",
+		"Alias": "WIN11_x64_Enterprise__24H2_ENGB_Eval",
+		"Filename": "WIN11_x64_ENT_24H2_ENGB_Eval.iso",
+		"Description": "Windows 11 64-bit Enterprise 24H2 English GB Evaluation",
+		"Architecture": "x64",
+		"ImageName": "1",
+		"MediaType": "ISO",
+		"OperatingSystem": "Windows",
+		"Uri": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/22631.2428.231001-0608.23H2_NI_RELEASE_SVC_REFRESH_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-gb.iso",
+		"Checksum": "06D32714E332D506E3C565BC08204CAB",
+		"CustomData": {
+			"WindowsOptionalFeature": [
+				"NetFx3"
+			],
 			"CustomBootstrap": [
 				"## Unattend.xml will set the Administrator password, but it won't enable the account on client OSes",
 				"NET USER Administrator /active:yes;",
